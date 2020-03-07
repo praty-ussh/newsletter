@@ -1,0 +1,55 @@
+.container-fluid{
+    padding-top: 5px;
+    padding-left: 5px;
+}
+.header{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+}
+.header img{
+    width:70%;
+    padding:20px;
+}
+.content_header{
+    width: 100%;
+}
+.content_heading{
+    font-size: 2.5em;
+    flex-direction: row;
+    justify-content: flex-start;         
+}
+.content_body{
+    font-family: "Zapf Chancery ";
+    font-size: 20px;
+    padding-top: 20px;
+}
+.content_body h3{
+    /* text-decoration: underline; */
+    text-align: center;
+    color: blueviolet;
+}
+.content_body p{
+    text-align: center;
+}
+.content_text{
+    margin-top: 10px;
+}
+.content_text .author{
+    text-align: right;
+    font-weight: 600;
+}
+.content_left{
+    border-style: none solid none none;
+    border-width: 1px;
+    border-color: rgb(182, 173, 190);   
+}
+.content_right{
+    border-style: none none none solid;
+    border-width: 1px;
+    border-color: rgb(182, 173, 190);   
+}
+.fixed_header{
+    /* position: sticky;
+    top: 0; */
+}
